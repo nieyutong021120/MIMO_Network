@@ -14,7 +14,6 @@
 | `plot_u_amplitude.py` | 读取 `U` 绘制各波束逐样本幅度 `|U|` 散点图，支持 `-d`（数据目录）、`-o`（输出路径）命令行参数 |
 | `remove_u_outliers.py` | 按 `|U|` 幅度阈值剔除离群样本，生成仅包含 `X/U` 的新数据文件夹 |
 | `fc_nn_1_dpd_best.pth` | 训练过程中按验证集损失保存的最佳模型权重 |
-| `amplitude_figure/` | 幅度散点图输出目录 |
 | `requirements.txt` | 运行所需的 Python 依赖清单 |
 
 ## 环境准备
