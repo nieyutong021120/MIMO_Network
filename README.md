@@ -16,7 +16,6 @@
 | `fc_nn_1_dpd_best.pth` | 训练过程中按验证集损失保存的最佳模型权重 |
 | `amplitude_figure/` | 幅度散点图输出目录 |
 | `requirements.txt` | 运行所需的 Python 依赖清单 |
-| `.gitignore` | Git 版本管理忽略规则 |
 
 ## 环境准备
 
