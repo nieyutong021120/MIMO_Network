@@ -1,0 +1,5 @@
+# MIMO 流级 DPD 网络运行依赖
+# 已在 Windows + Python 3.10 (CPU) 环境验证，可直接：pip install -r requirements.txt
+torch==2.14.1
+numpy==2.2.6
+matplotlib==3.10.9
