@@ -19,13 +19,13 @@ RANDOM_SEED = 42
 DATA_FOLDER = Path(r"E:\paper\MIMO-DPD\ABA\data\BEAM4_BW_40")
 
 # 数据划分：按时间连续切分，验证集在前、训练集居中、测试集在后。
-MEMORY_DEPTH = 6
+MEMORY_DEPTH = 7
 TRAIN_RATIO = 0.6
 VALIDATION_RATIO = 0.2
 
 # 波束域模型结构参数。
-HIDDEN_BEAM = 16
-HIDDEN_2 = 20
+HIDDEN_BEAM = 9
+HIDDEN_2 = 25
 
 # 训练参数。
 BATCH_SIZE = 128
